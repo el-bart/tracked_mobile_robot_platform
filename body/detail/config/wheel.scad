@@ -7,7 +7,7 @@ bearing_inter_space = 6;
 engine_axle_len = 8-1; // this is also how deep the screw goes in
 // M2x20
 engine_axle_screw_head_d = 3.75 + 1;
-engine_axle_screw_d = 2 + 0.5;
+engine_axle_screw_d = 2 + 1.0; // keep a lot of free room here, to make sure screw can easily pass through
 engine_axle_screw_len = 20 - engine_axle_len;
 
 wheel_h = 10;
